@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.violet {
+    background-color: violet;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.wrapper-1 {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.wrapper-1 .green {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+}
+
+.wrapper-2 {
+    position: relative;
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.wrapper-2 #first {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#third {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#second {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.wrapper-3 {
+    margin-top: 20px;
+    width: 800px;
+    height: 600px;
+}
+
+.square-large {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+.square-small {
+    width: 50px;
+    height: 50px;
+}
+
+#wrapper3-second {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#wrapper3-fith {
+    position: relative;
+    left: 20px;
+}
